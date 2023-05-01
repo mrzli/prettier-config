@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prettier Config",
   "author": {
     "name": "Goran Mržljak",
@@ -11,7 +11,12 @@
   "license": "MIT",
   "keywords": [
     "prettier",
-    "prettier-config"
+    "prettier-config",
+    "prettier-configuration",
+    "code-formatting",
+    "formatter",
+    "style-guide",
+    "coding-style"
   ],
   "repository": {
     "type": "git",
