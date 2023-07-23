@@ -10,3 +10,9 @@ module.exports = {
   jsxSingleQuote: true,
 };
 ```
+
+## Installation
+
+```bash
+npm install --save-dev @gmjs/prettier-config
+```
