@@ -1,16 +1,12 @@
 {
   "name": "@gmjs/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prettier Config",
   "author": {
     "name": "Goran Mržljak",
     "email": "goran.mrzljak@gmail.com",
     "url": "https://mrzli.com"
   },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "license": "MIT",
   "keywords": [
     "prettier",
@@ -25,7 +21,10 @@
     "type": "git",
     "url": "https://github.com/mrzli/prettier-config"
   },
-  "homepage": "https://github.com/mrzli/prettier-config",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "pub": "npm publish --access public"
   }
