@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.45",
   "description": "Prettier Config",
   "author": {
     "name": "Goran Mržljak",
@@ -22,9 +22,7 @@
     "url": "https://github.com/mrzli/prettier-config"
   },
   "type": "commonjs",
-  "exports": {
-    ".": "./index.js"
-  },
+  "main": "./index.js",
   "scripts": {
     "pub": "npm publish --access public"
   }
